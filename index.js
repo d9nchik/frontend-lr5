@@ -27,7 +27,7 @@ const nameOfPlayers = players.map(({ name }) => name);
 console.log(`names of players: ${nameOfPlayers}`);
 
 // filter - 1
-const olderThan32 = nameOfPlayers.filter(({ age }) => age > 32);
+const olderThan32 = players.filter(({ age }) => age > 32);
 console.log(`Players older than 32: ${olderThan32}`);
 
 // filter - 2
