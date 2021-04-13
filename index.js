@@ -20,7 +20,7 @@ const players = [
   { name: 'Vasyl', age: 35 },
   { name: 'Dmytro', age: 22 },
   { name: 'Ivan', age: 34 },
-  { name: 'Petro', age: '37' },
+  { name: 'Petro', age: 37 },
 ];
 
 const nameOfPlayers = players.map(({ name }) => name);
